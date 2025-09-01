@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> 
+        <!--Inline Js Example-->
+        <button onclick="alert('Inline js Example')">Click me inline</button>
+        <br>
+
+
+         <!--Internal Js Example-->
+        <button onclick="showMeg1()">Click me Internal</button>
+        <br>
+
+         <!--External Js Example-->
+        <button onclick="showMeg2()">Click me External</button>   <!--Example 1-->
+        <br>
+         <!--External Js Example-->
+        <button onclick="showMeg3()">Click me External 1</button>   <!--Example 2-->
+        <br>
+
+    </h1>
+    <script>
+        function showMeg1(){
+            alert("This is Inline js Example");
+        }
+    </script>
+    <script src="js/script.js" text="text/javascript"></script>
+
+
+
+</body>
+</html>
