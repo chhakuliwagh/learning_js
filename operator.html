@@ -11,14 +11,18 @@
     <script>
         var a=10;
         var b=3;
-        var c=a**b;
+        var c=a+b;
         c++;
         c--;
         c++;
         c++;
         c--;
         document.write(c);
+          document.write("<br>");
+            
     </script>
+
+
     <!--Assignment operator =,++,-+,**=,%-->
     <script>
         var x=10;
@@ -28,39 +32,65 @@
         document.write("<br>");
         document.write(y);
         document.write("<br>");
+         
     </script>
+     
     <script>
         //comparison operator ==,===,</><==,>=,!=
         var p=13;
         var q="13";
-        if(p==q){
-            document.write("true");
+        if(p===q){
+            document.write("True");
         }else{
-            document.write("false");
+            document.write("False");
         }
+        document.write("<br>");
     </script>
+
+
     <script>
-        var age=100;
+        //example 1
+        var age=101;
         if(age>=18 && age<=100){
             document.write("Elegible for vote");
         }else{
-            document.write("not elegible for vote");
+            document.write("Not elegible for vote");
         }
-        var day="sunday";
-        if(day==="saturday" || day==="sunday"){
-            document.write("its weekend");
+        document.write("<br>");
+
+        // example 2
+        var day="sonday";
+       if(day==="saturday" || day==="sunday")
+        {
+         document.write("Its weekend");
         }else{
-             document.write("its weekday")
+             document.write("Its weekday")
+       }
+       document.write("<br>");
+
+        // example 3
+
+         var age=100;
+        if(age>=18 && age <=100){
+        document.write("Elegible for vote");
+        }else{
+        document.write("not eligible for vote");
         }
-        // var age=100;
-        //if(age>=18 && age <=100){
-        //document.write("Elegible for vote");
-        //}else{
-        //document.write("not eligible for vote");
-        //}
+        document.write("<br>");
+
+         // example 4
+
         var age=17;
-        var eligiblity=(age>=18) ? "Eligible for vote ": "noteveligible";
+        var eligiblity=(age>=18) ? "Eligible for vote ": "Not Eligible For Vote";
         document.write(eligiblity);
+         document.write("<br>");
+
+         // Terminal operator
+
+         var age=17;
+         var eleigiblity =(age>=18) ? "Eligible for Vote" : "Not Eligible for Vote" ;
+         document.write(eleigiblity);
+    
     </script>
 </body>
 </html>

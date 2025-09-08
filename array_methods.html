@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //array modify and delete
+        var a=["anand",28,"BE IT","Software Enginner"];
+        document.write(a +="<br>");
+        a[2]="BE CS";
+        document.write(a += "<br>");
+        delete a[1];
+        document.write(a +"<br>");
+    </script>
+
+    <script>
+        //sorting and reverse
+        var b=["Dipali","Wagh","Lokesh","Wagh","Shobha","Suresh"];
+        document.write(b +"<br>");
+        b.sort();
+        document.write(b +"<br>");
+        b.reverse();
+        document.write(b +"<br>");
+    </script>
+    
+    <script>
+        //shiift and unshift
+        var c=["Dipali","Wagh","Lokesh","Wagh","Shobha","Suresh"];
+        document.write(c + "<br>");
+        c.shift();
+        //c.pop();
+        document.write(c +"<br>");
+        c.unshift("Rahul");
+        document.write(c +"<br>");
+
+    </script>
+
+    <script>
+        var a=["vishal","Aakash","Sourabh"];
+        var b=["Diksha","sujata","Mayueri"];
+        var z=["Aannd","Dinesh","Dipali"];
+         var c=a.concat(b,z);
+         document.write(c +"<br>");
+         var d=c.join("/");
+         document.write(d +"<br>");
+    </script>
+</body>
+</html>
